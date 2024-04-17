@@ -25,14 +25,14 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #2e2f42;
+  color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo-blue {
-  color: #4d5ae5;
+.logo-dark {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -48,6 +48,10 @@ button {
 .contacts-info:hover,
 .contacts-info:focus {
   color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contacts-info {
@@ -81,7 +85,8 @@ button {
   color: #fff;
 }
 
-.button-hero:hover {
+.button-hero:hover,
+.button-hero:focus {
   color: #fff;
   background-color: #404bbf;
 }
@@ -95,6 +100,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .benefits-header {
@@ -134,6 +140,10 @@ button {
 
 /* ====== PORTFOLIO STYLES ====== */
 
+.portfolio-item {
+  background-color: #ffffff;
+}
+
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -161,6 +171,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-white {
   color: #f4f4fd;
 }
 
