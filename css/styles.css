@@ -122,6 +122,10 @@ button {
   background-color: #f4f4fd;
 }
 
+.team-item {
+  background-color: #FFFFFF;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
